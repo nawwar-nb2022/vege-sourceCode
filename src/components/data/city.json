@@ -1,0 +1,28 @@
+{
+    "city" :[
+        {"id":"0" ,"name" :"test" , "image" :"https://picsum.photos/seed/picsum/250/200" , "info":"random text for city location"},
+        {"id":"1" ,"name" :"test" , "image" :"https://picsum.photos/seed/picsum/250/200" , "info":"random text for city location"},
+        {"id":"2" ,"name" :"test" , "image" :"https://picsum.photos/seed/picsum/250/200" , "info":"random text for city location"},
+        {"id":"3" ,"name" :"test" , "image" :"https://picsum.photos/seed/picsum/250/200" , "info":"random text for city location"}
+    ],
+    "service" :[
+        {"id":"0" , "name":"salad","image":"https://picsum.photos/seed/picsum/250/200" ,"hint":"see product"},
+        {"id":"1" , "name":"Soups","image":"https://picsum.photos/seed/picsum/250/200" ,"hint":"see product"},
+        {"id":"2" , "name":"Desserts","image":"https://picsum.photos/seed/picsum/250/200" ,"hint":"see product"},
+        {"id":"3" , "name":"baked goods","image":"https://picsum.photos/seed/picsum/250/200" ,"hint":"see product"}
+    ],
+    "product":[
+        {"id":"0", "name" :"Tomato Cucumber" , "desc" : "test" ,"price" : "5$" , "type":"salad" , "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFyus_N9pViE0ohnVdDJpQXJOIpOE9H8sadA&usqp=CAU" },
+        {"id":"1", "name" :"Avocado Cucumber" , "desc" : "test" ,"price" : "10$" , "type":"salad", "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPCc406Giu0aQ7LzI_ANHChVELztDQy_oeDg&usqp=CAU"} ,
+        {"id":"2", "name" :"Tomato Mint " , "desc" : "test" ,"price" : "7$" , "type":"salad" , "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ65NJWSrYy6_rQQIxze-Z_EuZl7cPenvlJkg&usqp=CAU"},
+        {"id":"3", "name" :"Quinoa Tabbouleh" , "desc" : "test" ,"price" : "12$" , "type":"salad" , "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGnvl2heIg_3rz2iFgqaToAfR7ZpGRgltLdw&usqp=CAU"},
+        {"id":"4", "name" :"Tomato Basil Chickpea" , "desc" : "test" ,"price" : "2$" , "type":"salad" , "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlqs4L1W24JeQDtysz_eyvmWPXIi-F09tIeQ&usqp=CAU"},
+        {"id":"5", "name" :"Food_test" , "desc" : "test" ,"price" : "20$" , "type":"Desserts" , "image":"dd"},
+        {"id":"6", "name" :"Food_test" , "desc" : "test" ,"price" : "20$" , "type":"Soups", "image":"dd"},
+        {"id":"7", "name" :"Food_test" , "desc" : "test" ,"price" : "20$" , "type":"Soups", "image":"dd"},
+        {"id":"8", "name" :"Food_test" , "desc" : "test" ,"price" : "20$" , "type":"Soups", "image":"dd"},
+        {"id":"9", "name" :"Food_test" , "desc" : "test" ,"price" : "20$" , "type":"Soups", "image":"dd"},
+        {"id":"10", "name" :"Food_test" , "desc" : "test" ,"price" : "20$" , "type":"Soups", "image":"dd"},
+        {"id":"11", "name" :"Food_test" , "desc" : "test" ,"price" : "20$" , "type":"Soups", "image":"dd"}
+    ]
+}

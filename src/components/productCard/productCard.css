@@ -1,0 +1,128 @@
+.ProductCardChild{
+    /* padding: 10px 0; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    min-height: 250px;
+
+    
+}
+.ProductCardChild img{
+    width: 250px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.detailCard{
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
+    align-items: center;
+
+}
+ .price{
+    background-color: var(--button);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ProductCardChild h5{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--button);
+    width: 100%;
+    height: 0%;
+    overflow: hidden;
+    transition: .5s all ease-in;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    margin-bottom: 0;
+    
+}
+.ProductCardChild h5 p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 20%;
+
+}
+.ProductCardChild h5 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ProductCardChild:hover h5{
+    height: 65%;
+}
+.sendOrder{
+    color: var(--button);
+    background-color: white;
+    padding: 10px 20px ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.buttoncontainer{
+    text-align: center;
+    margin-top: 10%;
+}
+.popUpSection{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    z-index: 2;
+    padding: 20px;
+    box-shadow: 0px 0px 100px 1000px rgba(0 ,0,0,.7);
+    min-width:500px ;
+    
+}
+.orderProduct{
+    cursor: pointer;
+    transition: .5s all ;
+    border-radius: 10px;
+    padding: 5px;
+}
+.orderProduct:hover{
+    box-shadow:1px 1px 15px lightgrey;
+}
+.exitButton{
+    position: absolute;
+    top: 5px;
+    right:  5px;
+
+}
+.exitButton button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.displayContain{
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+
+}
+.imageSide img{
+    border-radius: 10px;
+}

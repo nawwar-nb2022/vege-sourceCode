@@ -1,0 +1,168 @@
+.navBarMainStyle{
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+}
+
+
+/* brand_logout */
+.brand_logout{
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
+.brand_logout button{
+    border: none;
+    outline: none;
+    color: var(--text);
+    cursor: pointer;
+    font-size: 20px;
+    background:inherit;
+    border-radius: 10px;
+    display: flex;
+    align-self: center;
+    gap: 5px;
+}
+
+.brand_logout button:active{
+    border: 1px solid var(--button);
+}
+.brand_logout p{
+    margin: 0;
+}
+.brand_logout p>*{
+    color: var(--button);
+}
+/* brand */
+.navBarMainStyle nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.navBarMainStyle nav .brand{   
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    width: max-content;
+
+}
+.navBarMainStyle nav .brand img{
+    padding: 0 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.navBarMainStyle nav .brand span{
+    padding: 0 5px ;
+    padding-top: 5px;
+    border-radius: 10px;
+    width: max-content;
+}
+.navBarMainStyle nav .brand span:active {
+    border: 1px solid var(--button);
+}
+.navBarMainStyle nav .brand span >*{
+    text-decoration: none;
+    color: var(--text);
+}
+
+.navBarMainStyle nav .brand img{
+border-radius: 50%;
+object-fit: cover;
+}
+
+/* tabs */
+nav .tabs ul{
+    margin: 0;
+    display: flex; 
+    justify-content: space-around;  
+}
+nav .tabs ul li{
+    list-style-type: none;
+    padding: 0 20px;
+    font-size: 20px ;
+}
+nav .tabs ul li>*{
+    text-decoration: none;
+    color: var(--text);
+}
+
+
+/* lang mode  */
+
+nav .langMode{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+nav .langMode button{
+    border: none;
+    outline: none;
+    color: white;   
+    cursor: pointer;
+    margin:0 10px;
+
+}
+nav .langMode button.lang{
+    background-color: var(--button);
+    border-radius: 10px;
+}
+nav .langMode button.mode{
+    background-color: inherit;
+    color:black;
+    cursor: pointer;
+}
+/* open close tap */
+.openclosetap{
+    display: none;
+}
+.openclosetap button{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+@media only screen and (max-width:700px) {
+    .navBarMainStyle{
+        border-bottom: none;
+    }
+    nav {
+        position: relative;
+    }
+    nav .tabs {
+        position: absolute;    
+        transform: translateY(-150%);   
+        transition: 1s all ease;
+        left: 0;
+        right:0;
+    }
+    nav.open .tabs{
+        transform: translateY(0%);
+        width: 100%;
+        margin-top: 8%;
+        z-index: 2;
+        
+    }
+    nav .tabs ul{
+        background-color: white;
+        box-shadow: 0px 2px 5px lightgray;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 2;
+        
+    }
+    nav .tabs ul li {
+        transition: 1s all ease;
+        padding: 0 15px 2px;
+        margin: 10px 0px;
+    }
+    nav .tabs ul li:hover {
+        border-bottom: 1px solid black;
+        padding: 0 0 2px;
+
+    }
+    nav .openclosetap {
+        display: block;
+    }
+}

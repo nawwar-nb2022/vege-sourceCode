@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap');
+body  {
+  margin: 0;
+  font-family: 'Noto Sans Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(  to right , rgba(0, 0, 0, .05) , rgba(0, 0, 0, .05)) ;
+
+}
+.brand_logout button{
+  font-family: 'Noto Sans Mono', monospace;
+}
+:root{
+  /* light mode */
+  --text : darkcyan;
+  --title :black;
+  --background :white;
+  /* dark mode */
+  --text_Dark:rgb(160, 229, 229);
+  --title_Dark : white;
+  --background_Dark :black;
+  --bg_Card_Dark :rgba(0, 0, 0, 0.445);
+  /* general */
+  --button : rgb(219, 155, 36);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+.ccc{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 30px;
+}
+
+.light{
+  transition: .5s all ease-in-out;
+}
+/* dark mode style  */
+.dark{
+
+  color: var(--text_Dark);
+  background-color: var(--background_Dark);
+  transition: .5s all ease-in-out;
+}
+.dark nav .tabs ul li>* ,
+.dark .navBarMainStyle nav .brand span >*,
+.dark .brand_logout button
+{
+  color:var(--text_Dark)
+}
+.dark .cityTitle{
+  color :var(--title_Dark)
+}
+.dark .Login{
+  background-color: var(--bg_Card_Dark);
+  border: 1px solid var(--text_Dark);
+}
+
+.dark .Login .brand{
+  background-color: var(--text_Dark);
+}
+.dark .Login .input_controller input{
+  color: var(--title_Dark);
+  /* background-color: rgba(0, 0, 0, 0.445); */
+  box-shadow: 0px 0px 10px lightblue;
+  border-radius: 10px;
+}
+
+.dark .ProductCardChild{
+  box-shadow: 5px 1px 20px rgba(255, 255, 255, 0.3),-5px 1px 20px rgba(255, 255, 255, 0.3);
+    
+}

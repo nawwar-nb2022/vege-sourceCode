@@ -1,0 +1,50 @@
+.TopLanding{
+    background-image: url("../../images/cover2.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    color: darkcyan;
+    object-fit: fill;
+    background-attachment: fixed;
+    background-position-y: center;
+}
+.bloredSection{
+    backdrop-filter: blur(10px);
+    width: 30%;
+    margin:0 5% ;
+    padding: 10px;
+
+}
+
+@media only screen and (max-width:900px) {
+    .bloredSection{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:700px) {
+    .bloredSection{
+        width:90%!important;
+        margin:1% 5%  ;
+    }}
+.ValueSection ,.Motivate{
+    font-weight: lighter;
+}
+.Motivate{
+    padding-top: 1%;
+}
+.buttonController{
+    margin:20px 12%;
+}
+.buttonController button{
+    border: none;
+    outline: none;
+    background-color: var(--button);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.buttonController button >*{
+    text-decoration: none;
+    color: white;
+}
